@@ -61,6 +61,5 @@ public class WordCount {
         job.setJarByClass(WordCount.class);
         job.waitForCompletion(true);
     }
-
 }
 
